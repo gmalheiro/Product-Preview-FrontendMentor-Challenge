@@ -19,7 +19,6 @@
   /* I didn't understand this thing */
   grid-template-columns: repeat(2, 1fr);
   /* I didn't understand this thing */
-  grid-gap: 50px 30px;
 }
 .wrapper .image-content {
   /* Gotta study this */
@@ -29,10 +28,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px 0 0 15px;
 }
 .wrapper .text-box {
   display: flex;
   align-items: center;
+  border-radius: 0 15px 15px 0;
 }
 .wrapper .text-box .text-content {
   padding-left: 20px;
@@ -43,6 +44,10 @@
   color: hsl(228, 12%, 48%);
   text-transform: uppercase;
   letter-spacing: 0.4em;
+}
+
+.text-box {
+  background-color: white;
 }
 
 body {
