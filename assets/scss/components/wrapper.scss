@@ -8,6 +8,7 @@
     grid-gap:50px 30px;
 
     .image-content{
+        /* Gotta study this */
         overflow: hidden;
         
         .image{
@@ -15,6 +16,16 @@
             height: 100%;
             object-fit: cover;
         }
+    }
+
+    .text-box{
+        display: flex;
+        align-items: center;
+
+        .text-content{
+            padding-left: 20px;
+        }
+
     }
 
 }
