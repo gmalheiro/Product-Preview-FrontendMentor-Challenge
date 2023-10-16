@@ -2,7 +2,9 @@
 @import 'colors';
 @import 'components/container';
 @import 'components/wrapper';
+@import 'components/headings.scss';
 
 body{
     background-color: $primary-cream;
+    font-size: 14px;
 }

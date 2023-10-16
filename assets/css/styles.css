@@ -38,8 +38,16 @@
   padding-left: 20px;
 }
 
+.heading-sub {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
 body {
   background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */
