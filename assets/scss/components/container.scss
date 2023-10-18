@@ -1,7 +1,9 @@
 .container{
-    width: 100%;
-    min-height: 100vh;
-    display: grid;
-    /* I didn't understand this thing */
-    place-items: center;
+    width: 60vw;
+    height: 60vh;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    border: 2px solid red;
+    transform: translate(-50%,-50%);
 }

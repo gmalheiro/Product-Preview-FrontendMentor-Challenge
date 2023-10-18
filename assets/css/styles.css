@@ -5,11 +5,13 @@
 }
 
 .container {
-  width: 100%;
-  min-height: 100vh;
-  display: grid;
-  /* I didn't understand this thing */
-  place-items: center;
+  width: 60vw;
+  height: 60vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 2px solid red;
+  transform: translate(-50%, -50%);
 }
 
 .wrapper {
@@ -19,6 +21,7 @@
   /* I didn't understand this thing */
   grid-template-columns: repeat(2, 1fr);
   /* I didn't understand this thing */
+  grid-gap: 50px 30px;
 }
 .wrapper .image-content {
   /* Gotta study this */
@@ -28,12 +31,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 15px 0 0 15px;
 }
 .wrapper .text-box {
   display: flex;
   align-items: center;
-  border-radius: 0 15px 15px 0;
 }
 .wrapper .text-box .text-content {
   padding-left: 20px;
