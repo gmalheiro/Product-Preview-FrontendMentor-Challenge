@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/styles.scss","../scss/colors.scss"],"names":[],"mappings":"AAEA,KACI,iBCFY,QDGZ","file":"styles.min.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/reset.scss","../scss/styles.scss","../scss/colors.scss"],"names":[],"mappings":"AAAA,EACI,sBACA,SACA,eCCA,iBCHY,QDIZ,eACA,6BACA,iBCNY,QDOZ,iBACA,aACA,uBACA","file":"styles.min.css"}

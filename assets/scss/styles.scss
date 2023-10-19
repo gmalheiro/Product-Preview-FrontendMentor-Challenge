@@ -1,6 +1,13 @@
 @import 'colors';
+@import 'reset';
 
 body{
     background-color: $primary-cream;
     font-size: 14px;
+    font-family: "Fraunces",serif;
+    background-color: $primary-cream;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
