@@ -1,4 +1,28 @@
+@import '../colors.scss';
+
 .details_container{
     width: 50%;
     padding: 2rem;
+
+    .heading-primary{
+        color: $neutral-very-dark-blue;
+        padding-right: 2rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .description{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 14px;
+        color: $neutral-very-dark-blue;
+        line-height: 22px;
+        margin-bottom: 1.75rem;
+    }
+
+    .heading-sub{
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 3px;
+        font-size: 14px;
+        color: $neutral-very-dark-blue;
+        margin-bottom: 1.75rem;
+    }
 }
