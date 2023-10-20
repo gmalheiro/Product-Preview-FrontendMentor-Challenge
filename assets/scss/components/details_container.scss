@@ -25,4 +25,28 @@
         color: $neutral-very-dark-blue;
         margin-bottom: 1.75rem;
     }
+
+    .btn{
+        width: 100%;
+        border: 0;
+        outline: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-family: "Montserrat";
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        
+        &.btn-green{
+            background-color: $primary-dark-cyan;
+            color: white;
+        }
+
+        &:hover{
+            background-color: $neutral-dark-grayish-blue;
+        }
+    }
+
 }
