@@ -15,19 +15,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
-  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.min.css">
 
   <title>Frontend Mentor | Product preview card component</title>
 </head>
 <body>
 
-  <div class="container">
-    <div class="wrapper">
-      <figure class="image-content">
+  <div class="card">
+      <figure class="image_container">
         <img class="image" src="./images/image-product-desktop.jpg" alt="image with a perfume">
       </figure>
-      <div class="text-box">
-        <div class="text-content">
+      <div class="details_container">
 
           <p class="heading-sub" >Perfume</p>
 
@@ -38,21 +36,19 @@
             Perfumer-Creator for the House of CHANEL.
           </p>
 
-          <div class="price">
-            $149.99
-            $169.99
+          <div class="price_container">
+            <h1 class="current_price">$149.99</h1>
+            <p class="old_price">$169.99</p>
           </div>
 
-          <a href="#" class="btn btn-green">
+          <button href="#" class="btn btn-green">
             <span class="material-symbols-outlined">
               shopping_cart
             </span>
             Add to Cart
-         </a>
-
-        </div>
-      </div>
+         </button>
     </div>
   </div>
+
 </body>
 </html>

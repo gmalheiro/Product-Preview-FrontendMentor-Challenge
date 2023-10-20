@@ -1,0 +1,52 @@
+@import '../colors.scss';
+
+.details_container{
+    width: 50%;
+    padding: 2rem;
+
+    .heading-primary{
+        color: $neutral-very-dark-blue;
+        padding-right: 2rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .description{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 14px;
+        color: $neutral-very-dark-blue;
+        line-height: 22px;
+        margin-bottom: 1.75rem;
+    }
+
+    .heading-sub{
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 3px;
+        font-size: 14px;
+        color: $neutral-very-dark-blue;
+        margin-bottom: 1.75rem;
+    }
+
+    .btn{
+        width: 100%;
+        border: 0;
+        outline: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-family: "Montserrat";
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        
+        &.btn-green{
+            background-color: $primary-dark-cyan;
+            color: white;
+        }
+
+        &:hover{
+            background-color: $neutral-dark-grayish-blue;
+        }
+    }
+
+}

@@ -1,0 +1,18 @@
+@import '../colors.scss';
+
+.price_container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.75rem;
+
+    .current_price{
+        color: $primary-dark-cyan;
+    }
+
+    .old_price{
+        font-family: "Montserrat";
+        color: $neutral-dark-grayish-blue;
+        text-decoration: line-through;
+    }
+}

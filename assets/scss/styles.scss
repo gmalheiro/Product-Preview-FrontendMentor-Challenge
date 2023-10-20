@@ -1,11 +1,18 @@
-@import 'reset';
 @import 'colors';
-@import 'components/container';
-@import 'components/wrapper';
-@import 'components/headings.scss';
-@import 'text-content';
+@import 'reset';
+@import 'components/card';
+@import 'components/image_container';
+@import 'components/details_container';
+@import 'components/price_container';
+@import 'responsive';
 
 body{
     background-color: $primary-cream;
     font-size: 14px;
+    font-family: "Fraunces",serif;
+    background-color: $primary-cream;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
