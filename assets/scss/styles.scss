@@ -1,8 +1,9 @@
 @import 'colors';
 @import 'reset';
 @import 'components/card';
-@import 'components/image_container.scss';
-@import 'components/details_container.scss';
+@import 'components/image_container';
+@import 'components/details_container';
+@import 'components/price_container';
 
 body{
     background-color: $primary-cream;
